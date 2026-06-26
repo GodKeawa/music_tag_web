@@ -7,6 +7,9 @@
 
 本地构建部署
 
+# Link 
+- https://github.com/GodKeawa/NeteaseCloudMusicTools
+
 # Credits
 - https://github.com/xhongc/music-tag-web
 

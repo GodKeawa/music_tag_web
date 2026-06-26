@@ -8,8 +8,8 @@ services:
       - "8001:8001"
     volumes:
       - ./music-tag-web:/app
+      - ./config:/app/data
       - /home/godke/Data/MusicDB:/app/media
-      - /home/godke/Projects/NeteaseCloudMusic/music_tag_web/config:/app/data
-      - /home/godke/Downloads:/app/download
+
     command: /start
     restart: always
